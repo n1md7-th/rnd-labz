@@ -1,0 +1,27 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "RND Labz Telegram Bot",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env.development --watch main.js",
+    "start": "node --env-file=.env.production main.js"
+  },
+  "author": "harry.kodua",
+  "license": "ISC",
+  "dependencies": {
+    "grammy": "^1.24.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": "20.x.x",
+    "npm": "10.x.x"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "ip": "^2.0.1",
+    "prettier": "3.3.1"
+  }
+}
